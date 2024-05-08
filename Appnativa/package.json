@@ -5,7 +5,6 @@
   },
   "name": "appnativa",
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "@capacitor/android": "^6.0.0",
     "@capacitor/core": "^6.0.0",
@@ -104,7 +103,9 @@
   },
   "scripts": {
     "dev": "parcel index.html",
-    "pro": "parcel build index.html"
+    "pro": "parcel build index.html",
+    "clean": "rimraf dist",
+    "build": "npm run clean && parcel build index.html && npx cap sync"
   },
   "keywords": [],
   "author": "",
