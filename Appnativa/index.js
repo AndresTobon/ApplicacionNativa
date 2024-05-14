@@ -26,6 +26,24 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Figura 3',
             precio: 300.000,
             imagen: new URL('./img/figura3.jpg', import.meta.url)
+        },
+        {
+            id: 5,
+            nombre: 'Sal',
+            precio: 300.000,
+            imagen: new URL('./img/sal.jpg', import.meta.url)
+        },
+        {
+            id: 6,
+            nombre: 'Azucar',
+            precio: 300.000,
+            imagen: new URL('./img/azucar.jpg', import.meta.url)
+        },
+        {
+            id: 7,
+            nombre: 'Arroz',
+            precio: 300.000,
+            imagen: new URL('./img/arroz.jpg', import.meta.url)
         }
     ];
 
