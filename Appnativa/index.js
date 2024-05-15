@@ -140,6 +140,18 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Leche',
             precio: 30.000,
             imagen: new URL('./img/leche.jpg', import.meta.url)
+        },
+        {
+            id: 24,
+            nombre: 'Manzanas',
+            precio: 8.000,
+            imagen: new URL('./img/manzanas.jpg', import.meta.url)
+        },
+        {
+            id: 25,
+            nombre: 'Uvas',
+            precio: 15.700,
+            imagen: new URL('./img/uvas.jpg', import.meta.url)
         }
     ];
 
