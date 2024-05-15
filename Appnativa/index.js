@@ -158,6 +158,12 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Mango',
             precio: 6.500,
             imagen: new URL('./img/mango.jpg', import.meta.url)
+        },
+        {
+            id: 27,
+            nombre: 'Pera',
+            precio: 8.900,
+            imagen: new URL('./img/pera.jpg', import.meta.url)
         }
     ];
 
