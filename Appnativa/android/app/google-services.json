@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "546452616961",
+    "project_id": "appnativa-b473f",
+    "storage_bucket": "appnativa-b473f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546452616961:android:8c8f2cb71cdab494f5cd00",
+        "android_client_info": {
+          "package_name": "com.nativa.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9bJ1ZDsoJUGQffjqaimSuQglGsmvo614"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
