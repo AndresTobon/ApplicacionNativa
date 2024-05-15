@@ -86,6 +86,24 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Comino',
             precio: 5.600,
             imagen: new URL('./img/comino.jpg', import.meta.url)
+        },
+        {
+            id: 15,
+            nombre: 'Laurel',
+            precio: 3.250,
+            imagen: new URL('./img/laurel.jpg', import.meta.url)
+        },
+        {
+            id: 16,
+            nombre: 'Bicarbonato',
+            precio: 2.950,
+            imagen: new URL('./img/bicarbonato.jpg', import.meta.url)
+        },
+        {
+            id: 17,
+            nombre: 'Ajo',
+            precio: 3.600,
+            imagen: new URL('./img/ajo.jpg', import.meta.url)
         }
     ];
 
