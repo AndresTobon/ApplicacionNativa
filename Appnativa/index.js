@@ -30,20 +30,44 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 5,
             nombre: 'Sal',
-            precio: 300.000,
+            precio: 3.000,
             imagen: new URL('./img/sal.jpg', import.meta.url)
         },
         {
             id: 6,
             nombre: 'Azucar',
-            precio: 300.000,
+            precio: 10.000,
             imagen: new URL('./img/azucar.jpg', import.meta.url)
         },
         {
             id: 7,
             nombre: 'Arroz',
-            precio: 300.000,
+            precio: 15.000,
             imagen: new URL('./img/arroz.jpg', import.meta.url)
+        },
+        {
+            id: 8,
+            nombre: 'Lentejas',
+            precio: 8.000,
+            imagen: new URL('./img/lentejas.jpg', import.meta.url)
+        },
+        {
+            id: 9,
+            nombre: 'Frijoles',
+            precio: 5.500,
+            imagen: new URL('./img/frijoles.jpg', import.meta.url)
+        },
+        {
+            id: 10,
+            nombre: 'Garbanzo',
+            precio: 7.000,
+            imagen: new URL('./img/garbanzo.jpg', import.meta.url)
+        },
+        {
+            id: 11,
+            nombre: 'Pimienta',
+            precio: 300.000,
+            imagen: new URL('./img/pimienta.jpg', import.meta.url)
         }
     ];
 
