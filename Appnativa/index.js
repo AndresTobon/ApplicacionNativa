@@ -26,6 +26,150 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Figura 3',
             precio: 300.000,
             imagen: new URL('./img/figura3.jpg', import.meta.url)
+        },
+        {
+            id: 5,
+            nombre: 'Sal',
+            precio: 3.000,
+            imagen: new URL('./img/sal.jpg', import.meta.url)
+        },
+        {
+            id: 6,
+            nombre: 'Azucar',
+            precio: 10.000,
+            imagen: new URL('./img/azucar.jpg', import.meta.url)
+        },
+        {
+            id: 7,
+            nombre: 'Arroz',
+            precio: 15.000,
+            imagen: new URL('./img/arroz.jpg', import.meta.url)
+        },
+        {
+            id: 8,
+            nombre: 'Lentejas',
+            precio: 8.000,
+            imagen: new URL('./img/lentejas.jpg', import.meta.url)
+        },
+        {
+            id: 9,
+            nombre: 'Frijoles',
+            precio: 5.500,
+            imagen: new URL('./img/frijoles.jpg', import.meta.url)
+        },
+        {
+            id: 10,
+            nombre: 'Garbanzo',
+            precio: 7.000,
+            imagen: new URL('./img/garbanzo.jpg', import.meta.url)
+        },
+        {
+            id: 11,
+            nombre: 'Pimienta',
+            precio: 6.000,
+            imagen: new URL('./img/pimienta.jpg', import.meta.url)
+        },
+        {
+            id: 12,
+            nombre: 'Color',
+            precio: 3.000,
+            imagen: new URL('./img/color.jpg', import.meta.url)
+        },
+        {
+            id: 13,
+            nombre: 'Sal de ajo',
+            precio: 4.200,
+            imagen: new URL('./img/saldeajo.jpg', import.meta.url)
+        },
+        {
+            id: 14,
+            nombre: 'Comino',
+            precio: 5.600,
+            imagen: new URL('./img/comino.jpg', import.meta.url)
+        },
+        {
+            id: 15,
+            nombre: 'Laurel',
+            precio: 3.250,
+            imagen: new URL('./img/laurel.jpg', import.meta.url)
+        },
+        {
+            id: 16,
+            nombre: 'Bicarbonato',
+            precio: 2.950,
+            imagen: new URL('./img/bicarbonato.jpg', import.meta.url)
+        },
+        {
+            id: 17,
+            nombre: 'Ajo',
+            precio: 3.600,
+            imagen: new URL('./img/ajo.jpg', import.meta.url)
+        },
+        {
+            id: 18,
+            nombre: 'La fina',
+            precio: 6.000,
+            imagen: new URL('./img/lafina.jpg', import.meta.url)
+        },
+        {
+            id: 19,
+            nombre: 'Mantequilla',
+            precio: 12.000,
+            imagen: new URL('./img/mantequilla.jpg', import.meta.url)
+        },
+        {
+            id: 20,
+            nombre: 'Queso crema',
+            precio: 11.000,
+            imagen: new URL('./img/quesocrema.jpg', import.meta.url)
+        },
+        {
+            id: 21,
+            nombre: 'Mozzarella',
+            precio: 14.500,
+            imagen: new URL('./img/mozzarella.jpg', import.meta.url)
+        },
+        {
+            id: 22,
+            nombre: 'Queso cheddar',
+            precio: 17.000,
+            imagen: new URL('./img/quesocheddar.jpg', import.meta.url)
+        },
+        {
+            id: 23,
+            nombre: 'Leche',
+            precio: 30.000,
+            imagen: new URL('./img/leche.jpg', import.meta.url)
+        },
+        {
+            id: 24,
+            nombre: 'Manzanas',
+            precio: 8.000,
+            imagen: new URL('./img/manzanas.jpg', import.meta.url)
+        },
+        {
+            id: 25,
+            nombre: 'Uvas',
+            precio: 15.700,
+            imagen: new URL('./img/uvas.jpg', import.meta.url)
+        },
+        {
+            id: 26,
+            nombre: 'Mango',
+            precio: 6.500,
+            imagen: new URL('./img/mango.jpg', import.meta.url)
+        },
+        {
+            id: 27,
+            nombre: 'Pera',
+            precio: 8.900,
+            imagen: new URL('./img/pera.jpg', import.meta.url)
+        },
+        {
+            id: 28,
+            nombre: 'Tomate',
+            precio: 10.000,
+            imagen: new URL('./img/tomate.jpg', import.meta.url)
         }
     ];
 
