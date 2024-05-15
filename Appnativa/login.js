@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const username = form.username.value;
         const password = form.password.value;
 
-        // Aquí puedes agregar la lógica para autenticar al usuario, como enviar datos a una API
+        // Lógica para autenticar al usuario, como enviar datos a una API
 
         alert('Login exitoso');
+        window.localStorage.setItem('loggedIn', 'true');
         window.location.href = 'index.html';
     });
 });

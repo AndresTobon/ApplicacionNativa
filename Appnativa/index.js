@@ -5,27 +5,27 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Figura',
-            precio: 100.000,
-            imagen: new URL('./img/figura.jpg', import.meta.url)
+            nombre: 'detergente',
+            precio: 100,
+            imagen: new URL('./img/detergente.jpeg', import.meta.url)
         },
         {
             id: 2,
-            nombre: 'Mug',
+            nombre: 'fab',
             precio: 50.000,
-            imagen: new URL('./img/mug.png', import.meta.url)
+            imagen: new URL('./img/fab.jpeg', import.meta.url)
         },
         {
             id: 3,
-            nombre: 'Figura 2',
+            nombre: 'Te',
             precio: 200.000,
-            imagen: new URL('./img/figura2.jpg', import.meta.url)
+            imagen: new URL('./img/te.jpeg', import.meta.url)
         },
         {
             id: 4,
-            nombre: 'Figura 3',
+            nombre: 'blanueador',
             precio: 300.000,
-            imagen: new URL('./img/figura3.jpg', import.meta.url)
+            imagen: new URL('./img/blanqueador.jpeg', import.meta.url)
         },
         {
             id: 5,
@@ -182,9 +182,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const DOMtotal = document.querySelector('#total');
     const DOMbotonVaciar = document.querySelector('#boton-vaciar');
     const miLocalStorage = window.localStorage;
+    const authButtons = document.getElementById('auth-buttons');
+    const logoutButton = document.getElementById('logout-button');
+
+    // Comprobar estado de sesión
+    const isLoggedIn = miLocalStorage.getItem('loggedIn') === 'true';
+    updateAuthUI(isLoggedIn);
 
     // Funciones
+    function updateAuthUI(loggedIn) {
+        if (loggedIn) {
+            authButtons.classList.add('hidden');
+            logoutButton.classList.remove('hidden');
+        } else {
+            authButtons.classList.remove('hidden');
+            logoutButton.classList.add('hidden');
+        }
+    }
 
+    logoutButton.addEventListener('click', () => {
+        miLocalStorage.setItem('loggedIn', 'false');
+        updateAuthUI(false);
+        window.location.href = 'index.html';
+    });
     /**
     * Dibuja todos los productos a partir de la base de datos. No confundir con el carrito
     */
