@@ -334,6 +334,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Eventos
     DOMbotonVaciar.addEventListener('click', vaciarCarrito);
+    const loginForm = document.getElementById('login-form');
+
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // Aquí puedes realizar la autenticación con tu lógica de negocio
+            // Por ejemplo, puedes enviar una solicitud al servidor para verificar las credenciales
+
+            // Simulación de autenticación exitosa
+            if (username === 'usuario' && password === 'contraseña') {
+                alert('Inicio de sesión exitoso');
+                // Redirigir a la página principal o a donde desees después del inicio de sesión
+                window.location.href = 'pagina-principal.html';
+            } else {
+                alert('Nombre de usuario o contraseña incorrectos');
+            }
+        });
 
     // Inicio
     cargarCarritoDeLocalStorage();
