@@ -66,8 +66,26 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 11,
             nombre: 'Pimienta',
-            precio: 300.000,
+            precio: 6.000,
             imagen: new URL('./img/pimienta.jpg', import.meta.url)
+        },
+        {
+            id: 12,
+            nombre: 'Color',
+            precio: 3.000,
+            imagen: new URL('./img/color.jpg', import.meta.url)
+        },
+        {
+            id: 13,
+            nombre: 'Sal de ajo',
+            precio: 4.200,
+            imagen: new URL('./img/saldeajo.jpg', import.meta.url)
+        },
+        {
+            id: 14,
+            nombre: 'Comino',
+            precio: 5.600,
+            imagen: new URL('./img/comino.jpg', import.meta.url)
         }
     ];
 
