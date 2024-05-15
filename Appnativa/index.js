@@ -128,6 +128,18 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Mozzarella',
             precio: 14.500,
             imagen: new URL('./img/mozzarella.jpg', import.meta.url)
+        },
+        {
+            id: 22,
+            nombre: 'Queso cheddar',
+            precio: 17.000,
+            imagen: new URL('./img/quesocheddar.jpg', import.meta.url)
+        },
+        {
+            id: 23,
+            nombre: 'Leche',
+            precio: 30.000,
+            imagen: new URL('./img/leche.jpg', import.meta.url)
         }
     ];
 
