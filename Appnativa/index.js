@@ -104,6 +104,24 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Ajo',
             precio: 3.600,
             imagen: new URL('./img/ajo.jpg', import.meta.url)
+        },
+        {
+            id: 18,
+            nombre: 'La fina',
+            precio: 6.000,
+            imagen: new URL('./img/lafina.jpg', import.meta.url)
+        },
+        {
+            id: 19,
+            nombre: 'Mantequilla',
+            precio: 12.000,
+            imagen: new URL('./img/mantequilla.jpg', import.meta.url)
+        },
+        {
+            id: 20,
+            nombre: 'Queso crema',
+            precio: 11.000,
+            imagen: new URL('./img/quesocrema.jpg', import.meta.url)
         }
     ];
 
